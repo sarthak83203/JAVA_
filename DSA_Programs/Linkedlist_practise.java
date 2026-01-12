@@ -24,6 +24,23 @@ public class Linkedlist_practise{
         currNode.next=newNode;
     }
 
+    public void Search(int data){
+        int index=0; //Not found
+        Node currNode=head;
+        if(head==null){
+            System.out.println("Empty");
+        }
+        while(currNode.next!=null){
+            if(currNode.data==data){
+                System.out.println(index);
+                return;
+            }
+            currNode=currNode.next;
+            index++;
+        }
+
+    }
+
     public void print(){
        
         Node currNode=head;
@@ -48,6 +65,7 @@ public class Linkedlist_practise{
         list.addlast(2);
         list.addlast(3);
         list.print();
+        list.Search(7);
 
 
     }
