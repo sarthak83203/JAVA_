@@ -23,7 +23,7 @@ public ListNode reverseBetween(ListNode head, int left, int right){
         n1.next=n2.next; //now 3 will get detached here.....
         n2.next=curr;
         curr=n2;
-        n2=n1.next;
+        n2=n1.next;//now here 4 will come that is next to 2...
     }
     //reconnect..
     if(prev!=null){
