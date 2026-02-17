@@ -22,5 +22,5 @@ public String addString(String num1,String num2){
 //Converting String to Long
 //long m=Long.parseLong(num1);
 
-//Converting Long to string
+//Converting Long to string same for INT also
 //String m=String.valueOf(num1);
