@@ -13,5 +13,7 @@ public int sign_product_array(int nums[]){
     if(result==0){
         return 0;
     }
+
+    
     return -1;
 }
