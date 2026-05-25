@@ -3,7 +3,7 @@ public int segments(String s){
     if(s.length()==0){
         return 0;
     }
-    String i[]=s.split("\\s+");  //  "\\s" means whitespace + means one or more
+    String i[]=s.split("\\s+");  //  "\\s" means whitespace + means one or more can use for exactly one space also
     return i.length;
 
 }
