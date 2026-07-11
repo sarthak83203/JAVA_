@@ -38,11 +38,12 @@ public class quick_sort {
 
 
     public static void main(String args[]){
-        int arr[]={8,7,6,5,4};
+        int arr[]={8,7,6,5,4,-5};
         quickSort(arr, 0, arr.length-1);
         printArr(arr);
 
 
     }
+    
     
 }
