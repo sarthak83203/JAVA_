@@ -14,8 +14,6 @@ public class FindSubsets {
     public static void main(String args[]){
         String ans="abc";
         FindSubset(ans,"", 0);
-        
-
     }
     
 }
