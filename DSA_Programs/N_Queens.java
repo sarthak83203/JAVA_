@@ -71,6 +71,7 @@ public class N_Queens {
             }
         }
         Queens(board, 0);//konsi row se cahlu karna he
+        //can count the number of ways
     }
     
 
