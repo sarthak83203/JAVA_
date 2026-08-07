@@ -45,7 +45,7 @@ public class N_Queens {
                  Queens(board, row+1);
                  board[row][j]='x';//this is important because this process is Backtracking
                  //ok now here pehele to haar ek row par queen bhaith jayegi kyuki row badhete jayega to board[row][j]="Q" wala hote jayega 
-                //baad me aayega backtracking wala step usme usme jaha pe bhi queen rakhi he usko '.' banakar j++ karke wala par ek aur baar 
+                //baad me aayega backtracking wala step usme usme jaha pe bhi queen rakhi he usko 'x' banakar j++ karke wala par ek aur baar 
                 //board[row][j]="Q" statement run hojayega phir recursion pe mat jana kyuki it's already return and memory got erase of that thing
 
             }
