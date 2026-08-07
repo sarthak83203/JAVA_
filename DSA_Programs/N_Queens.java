@@ -35,6 +35,8 @@ public class N_Queens {
         //base case
         if(row==board.length){
             printBoard(board);
+
+            
             return;
         }
         //recursion
