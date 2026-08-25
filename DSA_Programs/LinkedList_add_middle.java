@@ -39,6 +39,13 @@ public class LinkedList_add_middle {
         head=newNode;
     }
 
+    //remove first
+    public int removeFirst(){
+        int val=head.data;//isme mene head ka data store kiya he 
+        head=head.next; //agar head aage badha do to previous data hamesaha keliye nikal jata he memory se
+        return val;
+    }
+
     public void print(){
         if(head==null){
             System.out.println("Linkedlist is Empty Now");
