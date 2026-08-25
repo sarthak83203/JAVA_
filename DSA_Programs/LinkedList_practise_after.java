@@ -50,6 +50,11 @@ public class LinkedList_practise_after {
 
 
     }
+
+
+
+
+
     public void print(){
         if(head==null){
             System.out.println("Linkedlist is empty");
