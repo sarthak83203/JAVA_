@@ -8,7 +8,7 @@ class Solution {
         }
         int freq[]=new int[max-min+1];//beacause zero comes in my case 
         for(int i=0;i<nums.length;i++){
-            freq[nums[i]-min]++;
+            freq[nums[i]-min]++;//if not remember that -3 one exmaple 
         }
         for(int i=0;i<freq.length;i++){
             if(freq[i]==1){
