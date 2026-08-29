@@ -14,7 +14,7 @@
 class Solution {
     public ListNode detectCycle(ListNode head) {
 
-        //ye same he remove the cycle from the linkedlist bas isme fats ya slow dono mese ek ko return karna he 
+        //ye same he remove the cycle from the linkedlist bas isme fasts ya slow dono mese ek ko return karna he 
         //agar cycle detect hogi to hame slow ko head bana dena hoga  and break isliye ki vo fats pointr vohi rahena chahiye
         //kyu ki fats pointer ko hame vohi se chalu karna he 
         //phir slow ko ek ek karke aage badhao and fast ko bhi mathematically vo ek jagah milege
