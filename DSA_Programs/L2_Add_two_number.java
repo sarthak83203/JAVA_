@@ -23,6 +23,8 @@ class Solution {
         int carry=0;
         while(l1!=null || l2!=null || carry!=0){//hume ye tak tak chalate jan he jab tak dono null nahi ho jata
         //agar l1 list khatam hua to bhi l2 to chalte rahna chahiye this is the addition mean
+        //ye carry!=0 wala isliye laga kyuki agar l1 and l2 dono null hote he and acrry bass bacha raheta he to 
+        //usse bhi node ke form mme represent karna he
         int digit1;
         int digit2;
           if(l1!=null){
