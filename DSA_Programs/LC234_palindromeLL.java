@@ -25,8 +25,8 @@ class Solution {
         while(curr!=null){
             next=curr.next;
             curr.next=prev;
-            prev=curr;
-            curr=next;
+            prev=curr;//prev ki value current ki jagah aa jayegi 
+            curr=next;//and curr ki value next ki jagah aayegi
         }
 
         //now compare the first half is equal to the second half
