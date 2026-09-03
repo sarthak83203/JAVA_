@@ -49,7 +49,7 @@ class Solution {
           if(l1!=null){
             l1=l1.next;
           }
-          if(l2!=null){
+          if(l2!=null){//agar finish ho gaya to usko next kyu hi karna
             l2=l2.next;
           }
 
