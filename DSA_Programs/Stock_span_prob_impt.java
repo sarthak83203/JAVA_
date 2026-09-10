@@ -10,7 +10,7 @@ public class Stock_span_prob_impt {
                 st.pop();
             }
             if(st.isEmpty()){
-                span[i]=i+1;
+                span[i]=i+1;//because of zero index stack
             }else{
                 span[i]=i-st.peek();
             }
