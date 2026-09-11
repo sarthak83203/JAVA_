@@ -2,6 +2,7 @@ import java.util.*;
 class Solution {
     public int[] nextGreaterElements(int[] nums) {
         //important question for interview 
+        //Circular Approach
         //isme stack ka concept use hoga and Logic is most important
         //pehele to brute force lagao easy 
         //Real Interview Approach 
