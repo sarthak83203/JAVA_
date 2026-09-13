@@ -14,7 +14,7 @@ class Solution {
                 st.push('(');
             }else{
                 st.pop();
-                if(st.size()>0){
+                if(st.size()>0){//last me jo bacha hoga usko pehele hataya baad me condition check 
                     sb.append(')');
                 }
             }
