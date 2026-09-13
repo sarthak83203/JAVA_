@@ -1,5 +1,9 @@
 import java.util.*;
 public class Duplicate_parenthesis {
+
+
+//////////////////// ==============Microsoft,Google OA question ==============///////////////////
+
     public static boolean Duplicate(String str){
         Stack<Character> st=new Stack<>();
         for(int i=0;i<str.length();i++){
