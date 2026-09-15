@@ -1,6 +1,7 @@
 import java.util.*;
 class Solution {
     public static void findSubset(int nums[],ArrayList<Integer> ans,int i,List<List<Integer>> result){
+        //Time Complexity=>O(N * 2^N)
         if(i==nums.length){
             //ye same he like subset me include karna he ki nahi 
             //now isme new ArrayList isliye banana padha kyuki result and ans ek hi jagah point kar raha tha agar direct ans likhu to output change ho jayega
