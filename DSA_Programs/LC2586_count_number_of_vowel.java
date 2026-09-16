@@ -1,5 +1,7 @@
 class Solution {
     public int vowelStrings(String[] words, int left, int right) {
+        //Question =>
+            //Hume aise words count karne he jo start vowels se ho rahe ho and and end bhi vowels se ho rahe ho
         int count=0;
         for(int i=left;i<=right;i++){
             String h=words[i];
