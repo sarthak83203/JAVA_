@@ -1,5 +1,13 @@
 import java.util.*;
 class Solution {
+
+
+             //========================================//
+             //Microsoft,FaceBook,Paytm OA Question
+             //========================================//
+
+
+
     //Approach
     //isme nextSmaller from right and next smaller from left nikalege
     //ye bilkul similar he "Next Greater Element" se but isme thoda twist like ulta karna he
