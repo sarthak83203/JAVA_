@@ -1,13 +1,13 @@
 class Solution {
     public int maximumRemovals(String s, String p, int[] removable) {
-        //============================Amazom,Snowflake OA question========================================
+        //============================Amazon,Snowflake OA question========================================
         //This is Best Logic and to explore Binary Search more
         //Mine Approch is remove one string and scan for subsequence which is giving TLE
         //So best approch mid nikalo
         //uske baad mid tak utne character remove karo and check subsequence whether it is matching or not
         //so for loop chalaya mid index tak leke gaye and unko ek boolean array me true bana diya it means removed
         //then checking subsequence
-        
+
         int left=0;
         int right=removable.length;
         while(left<=right){
