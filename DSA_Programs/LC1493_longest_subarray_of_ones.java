@@ -9,6 +9,7 @@ class Solution {
             }
             //isme ek hi funda he baas ek zero ke liye dekho agar dusra aye to left pointer ko aage badhao
             //in this question i am looking for all ones+one zero 
+            //iisme baas size chahiye index ke basis pe hi kaam ho jayega
             while(zeroes>1){
                 if(nums[left]==0){
                     zeroes--;
