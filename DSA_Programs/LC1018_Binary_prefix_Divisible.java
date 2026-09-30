@@ -1,6 +1,7 @@
 import java.util.*;
 class Solution {
     public List<Boolean> prefixesDivBy5(int[] nums) {
+        //Logical Questions
         ArrayList<Boolean> list=new ArrayList<>();
        
         ArrayList<Integer> list1=new ArrayList<>();
