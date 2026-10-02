@@ -33,7 +33,7 @@ class Solution {
             st1.push(st.pop());
         }
         while(!st1.isEmpty()){
-             if(st1.size()!=1){
+             if(st1.size()!=1){//if the size is 1 it means baas ek hi path bacha he uske baad '/' nahi ayega to dierct pop it
             res+=(st1.pop()+"/");
             }else{
             res+=st1.pop();
