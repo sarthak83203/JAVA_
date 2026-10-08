@@ -11,9 +11,10 @@ public class Queue_reversal {
         while(!st.isEmpty()){
             q.add(st.pop());
         }
-        while(!q.isEmpty()){
-            System.out.print(q.remove()+" ");
-        }
+        // while(!q.isEmpty()){
+        //     System.out.print(q.remove()+" ");
+        // }
+        System.out.print(q);//direct print also possible
 
     }
     public static void main(String args[]){
