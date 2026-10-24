@@ -2,6 +2,8 @@ class Solution {
     public int findPeakElement(int[] nums) {
         //============zepto,Meta,Samsung,PayPal and Many more Company's OA Question==========//
         //=========Just Go through this Question before Each and Every Company
+        //ek funda yaad rakhna agar question me bole O(logn) and it can be solved using linear complexity O(n) then mostly use Binary Search
+        //And agar question does not mentioned about anything then appraoch the question with ""MID""
         int start=0;
         int end=nums.length-1;
         if(nums.length<2){
