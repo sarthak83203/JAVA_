@@ -1,6 +1,7 @@
 class Solution {
     public int findPeakElement(int[] nums) {
         //============zepto,Meta,Samsung,PayPal and Many more Company's OA Question==========//
+        //=========Just Go through this Question before Each and Every Company
         int start=0;
         int end=nums.length-1;
         if(nums.length<2){
