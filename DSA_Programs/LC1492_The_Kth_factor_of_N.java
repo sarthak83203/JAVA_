@@ -1,7 +1,7 @@
 import java.util.*;
 class Solution {
-    
-    //================= Expedia,IBM,Oracle,Bloomberg================//
+
+    //================= Expedia,IBM,Oracle,Bloomberg OA Question================//
     public int kthFactor(int n, int k) {
         ArrayList<Integer> list=new ArrayList<>();
         for(int i=1;i<=n;i++){
