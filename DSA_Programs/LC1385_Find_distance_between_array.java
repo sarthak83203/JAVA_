@@ -1,7 +1,7 @@
 class Solution {
     public int findTheDistanceValue(int[] arr1, int[] arr2, int d) {
         int count=0;
-        //============Zepto,Google,Bloomberg,Google OA Questions===========//
+        //============Zepto,Google,Bloomberg OA Questions===========//
         for(int i=0;i<arr1.length;i++){
             //In shot isme ye dekhana he ki distance > d ho 
             //<d he to invalid he
