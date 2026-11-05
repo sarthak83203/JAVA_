@@ -6,6 +6,13 @@ public class Activity_Selection_Greedy {
 
 
         //Agar unsorted wala mila to represent it in 2D matrix
+
+        int activities[][]=new int[start.length][3];
+        for(int i=0;i<start.length;i++){
+            activities[i][0]=i;
+            activities[i][1]=start[i];
+            activities[i][2]=end[i];
+        }
         //which has three coloums index,start,end
         //so sorting 2D matrix we have to use Lambda Function in Java
 
