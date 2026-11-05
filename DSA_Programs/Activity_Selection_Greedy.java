@@ -9,6 +9,8 @@ public class Activity_Selection_Greedy {
         //which has three coloums index,start,end
         //so sorting 2D matrix we have to use Lambda Function in Java
 
+
+        //In shot sorting kis basis pe karni he ye Comparator ka kaam he
         //Arrays.sort(activities,Comparator.comparingDouble(Key Extractor)) Key Extractor => o->o[2]
 
 
