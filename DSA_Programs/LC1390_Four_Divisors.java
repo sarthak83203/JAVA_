@@ -2,6 +2,9 @@ import java.util.*;
 class Solution {
     public int sumFourDivisors(int[] nums) {
         int sum=0;
+
+       //=============== Capital One,Google,Amazon OA Questions=============//
+
         for(int i=0;i<nums.length;i++){
             ArrayList<Integer> list=new ArrayList<>();
             //Mine Mistake is checking each number which gives TLE just think about j*j 
