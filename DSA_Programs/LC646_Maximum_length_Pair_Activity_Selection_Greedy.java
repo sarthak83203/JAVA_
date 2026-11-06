@@ -17,6 +17,7 @@ class Solution {
         //agar samajna ho to notes refer kar 
         //Inshot staright line bana and points ko plot kar apne aap samaj jayega
         for(int i=1;i<pairs.length;i++){
+            //jo bhi agla activity or chain select karega uska starting time piche thode hue end time se badha hona chahiye
             if(pairs[i][0]>lastEnd){
                 maxAct++;
                 lastEnd=pairs[i][1];//col 1 is ending point
