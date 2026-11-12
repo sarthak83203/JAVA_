@@ -2,7 +2,7 @@ class Solution {
     public boolean canThreePartsEqualSum(int[] arr) {
 
 
-       //========== Turing,Amazon,Bloomberg,Google============//
+       //========== Turing,Amazon,Bloomberg,Google OA Questions============//
 
         //pehele to  isme sum calculate karo and usse three part me divide karo
         //sum/3 isse ek part ka sum nikalega and usse compare karo baas yehi technique he
