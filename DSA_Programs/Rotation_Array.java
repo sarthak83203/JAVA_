@@ -1,0 +1,25 @@
+import java.util.*;
+public class Rotation_Array {
+    public static void main(String args[]){
+        Scanner sc=new Scanner(System.in);
+        int n=sc.nextInt();
+        int rotate=sc.nextInt();
+        int arr[]=new int[n];
+        for(int i=0;i<arr.length;i++){
+            arr[i]=sc.nextInt();
+        }
+        //Rotation
+        // rotate=rotate%n;
+        int temp[]=new int[n];
+        for(int i=0;i<n;i++){
+            temp[(i+rotate)%n]=arr[i];
+        }
+        for(int i=0;i<n;i++){
+            System.out.print(temp[i]+" ");
+        }
+        
+
+
+    }
+    
+}
